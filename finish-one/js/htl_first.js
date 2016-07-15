@@ -2,7 +2,7 @@ $(function() {
 	// 《登入》页面
 	// 跳转页面
 	$('.htl-create').tap(function() {
-		location.href = "register.html"
+		location.href = "register.php"
 	})
 	// 注册
 	$(".htl-regis-btn").click(function() {
