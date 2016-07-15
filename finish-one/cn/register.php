@@ -60,6 +60,9 @@
             </div>
             <div class="htl-regis-btn">注册</div>
         </form>
+        <div class="cyr-register-succeed">
+            <input type="button" value="确定" />
+        </div>
         <?php 
             include 'common_footer.html';
         ?>
