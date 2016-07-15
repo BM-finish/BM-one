@@ -1,0 +1,629 @@
+html, body {
+    height: 100%;
+    color: #414141;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    -ms-tap-highlight-color: rgba(0,0,0,0);
+}
+textarea, select, input{
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -o-appearance: none; 
+    appearance: none;
+}
+/*《报修》页面*/
+.htl-repair {
+    height: 100%;
+    padding-top: 3.25rem;
+    padding-bottom: 4.04rem;
+    background: #e6e6e6;
+    box-sizing: border-box;
+}
+  /*头部*/
+.htl-repair header, .htl-enter header,
+.htl-changew header, .htl-ident header,
+.htl-perset header, .htl-regis header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3.25rem;
+    width: 100%;
+    z-index: 10;
+    background: #f9f9f9;
+    line-height: 3.25rem;
+    font-size: 1.33rem;   
+    text-align: center;
+}
+.htl-repair header {
+    position: fixed;
+    top: 0;
+}
+.htl-repair header span {
+    position: fixed;
+    right: 6.09%;
+    top: 1rem;  
+    width: 12.5%;
+    height: 1.63rem;
+    border: 1px solid #c9c9c9;
+    background: #f3f3f3;
+    line-height: 1.63rem;
+    font-size: 0.92rem;
+}
+.htl-repair header a,
+.htl-enter header a,
+.htl-changew header a,
+.htl-ident header a,
+.htl-perset header a,
+.htl-regis header a {
+    position: fixed;
+    left: 6.09%;
+    top: 1rem;
+    width: 3.13%;
+    height: 1.33rem;
+    z-index: 5;
+    background: url('../images/TOP.png');
+    background-size: 100% 100%;
+}
+  /*主体*/
+.htlRepair-main, .htl-repMas-main {
+    width: 90.47%;  
+    margin: 1.38rem auto 0;
+    border: 1px solid #d6d6d6;
+    padding: 1rem 6.25% 1.5rem 4.06%;
+    background: #fff;
+    color: #414141;
+    border-radius: 0.5rem;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.htlRepair-main {
+    margin-bottom: 4.71rem;
+}
+  /*表单*/
+.htl-rep-ts {
+    line-height: 1rem;
+    font-size: 0.92rem;
+    text-indent: 1em;
+}
+.htl-repair-fg {
+    height: 2.9rem;
+    background: #e6e6e6;
+}
+.htl-rep-tit, .htl-repMas-main h1 {
+    margin-top: 0.58rem;
+    margin-bottom: 1.17rem;
+    border-bottom: 0.08rem solid #c6c6c6;
+    line-height: 2.92rem;
+    font-size: 1.33rem;
+}
+.htl-rep-gLab, .htl-rep-dLab, .htl-rep-serve {
+    float: left;
+    margin-top: 0.5rem;
+    font-size: 1.33rem;
+    color: #414141;
+}
+  /*报修产品*/
+.htl-rep-goodspar div, .htl-rep-date,
+.htl-rep-date-hour {
+    overflow: hidden;
+    float: right;
+    width: 45.63%;
+    height: 2.75rem;
+    margin-bottom: 0.83rem;
+    border: 1px solid #dbdbdb;
+    line-height: 2.75rem;
+}
+#htl-rep-goods {
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    width: 140%;
+    margin-left: 0.6rem;
+    border: none;
+    outline: none;
+}
+.htl-rep-message i {
+    margin-top: 0.2rem;
+    display: block;
+    font-size: 2rem;
+    color: #900201;
+}
+.htl-rep-gLab b, .htl-rep-dLab b,
+.htl-rep-gLab i, .htl-rep-dLab i {
+    float: left;
+    font-weight: normal;
+}
+.htl-rep-serve {
+    clear: both;
+    margin-top: -0.08rem;
+    line-height: 2.83rem;
+}
+.htl-rep-message textarea {
+    overflow: hidden;   
+    height: 6.33rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d4d4d4;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.htl-rep-date-hour:after {
+    float: right;
+    display: block;
+    content: '';
+    width: 21.23%;
+    height: 100%;
+    background: url('../images/choose_down.png') center center no-repeat;
+    background-size: 0.92rem 0.79rem;
+}
+ /*表单按钮*/
+.htl-rep-fBtn {
+    width: 70.94%;
+    margin: 1.71rem auto 0;
+ }
+.htl-rep-fBtn input,
+.htl-rep-fBtn span {
+    width: 36.12%;
+    height: 2.17rem;
+    border: 1px solid #c9c9c9;
+    background: #4ccb10;
+    line-height: 2.17rem;
+    font-size: 0.92rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.19rem;
+ }
+.htl-rep-fBtn input {
+    float: left;
+} 
+.htl-rep-fBtn span {
+    float: right;
+}
+
+/*《报修信息》页面*/
+.htl-repMas-goods, .htl-repMas-user {
+    margin-top: 0.83rem;
+    padding: 0 2.03%;
+    border-bottom: 1px solid #c6c6c6;
+    line-height: 1.58rem;
+}
+.htl-repMas-goods span {
+    margin-right: 0.33rem;
+}
+.htl-repMas-goods em {
+    margin-right: 7.81%;
+}
+.htl-repMas-des, .htl-repMas-place {
+    overflow: hidden;
+    height: 3.33rem;
+}
+/*未处理*/
+.htl-repMas-untre {
+    width: 90.47%;
+    height: 3.71rem;
+    margin: 1.25rem auto 0;
+    padding-left: 4.06%;
+    background: #fff;
+    line-height: 3.71rem;
+    font-size: 0.92rem;
+    box-shadow: 0 0 0 1px #d6d6d6;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.htl-repMas-untre span {
+    color: #ff0000;
+}
+.htl-repMas-untre em {
+    color: #414141;
+}
+/*弹窗提示*/
+.htl-repMas-tc {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 61.41%;
+    height: 5.92rem;
+    background: rgba(0, 0, 0, 0.7);
+    line-height: 5.92rem;
+    font-size: 0.92rem;
+    text-align: center;
+    color: #fff;
+}
+/*《登入》页面*/
+.htl-enter, .htl-changew,
+.htl-ident, .htl-perset,
+.htl-regis {
+    padding-top: 4.67rem;
+    padding-bottom: 4.04rem;
+    height: 100%;
+    background: #f0eff4;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;;
+}
+.htl-enter .htl-create, .htl-changew .htl-changew-bc {
+    position: fixed;
+    right: 6.09%;
+    font-size: 1rem;
+    color: #0079ff;
+}
+.htl-enterF, .htl-changewF {
+    overflow: hidden;
+    width: 94.84%;
+    margin: 0 auto;
+}
+.htl-enter-bg, .htl-changewF,
+.htl-identF, .htl-regis-bg {
+    padding: 0 0.42rem;
+    background: #fff;
+}
+.htl-enter-user label, .htl-enter-user div,
+.htl-enter-passw label, .htl-enter-passw div,
+.htl-chageF-old label, .htl-chageF-old div,
+.htl-chageF-new label, .htl-chageF-new div,
+.htl-chageF-comf label, .htl-chageF-comf div,
+.htl-identF-old label, .htl-identF-old div,
+.htl-identF-new label, .htl-identF-new div,
+.htl-identF-comf label, .htl-identF-comf div,
+.htl-regis-user label, .htl-regisF-zj,
+.htl-regis-passw label {
+    float: left;
+}
+.htl-enter-user, .htl-enter-passw,
+.htl-regis-user, .htl-regis-passw,
+.htl-regis-sex {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    color: #414141;
+}
+.htl-enter-user, .htl-regis-user,
+.htl-regis-sex {
+    border-bottom:  1px solid #d6d6d6;
+}
+.htl-enterF-zj,
+.htl-changeF-zj,
+.htl-identF-zj,
+.htl-regisF-zj {
+    overflow: hidden;
+    width: 69.19%;
+    height: 100%;
+    margin-left: 6.1%;
+}
+.htl-enterF-zj input, .htl-changeF-zj input,
+.htl-identF-zj input, .htl-regisF-zj input {
+    display: block;
+    height: 100%;
+    width: 140%;
+    border: 0;
+    outline: none;
+}
+ /*记住密码*/
+ .htl-enter-remb, .htl-regis-remb {
+    margin-top: 1.02rem;
+ }
+ .htl-enter-remb span, .htl-enter-remb em,
+ .htl-regis-remb span, .htl-regis-remb em,
+ .htl-regis-agree span, .htl-regis-agree em {
+    float: left;
+    font-size: 1rem;
+    color: #666666;
+ }
+.htl-enter-remb span, .htl-regis-remb span,
+.htl-regis-agree span {
+    width: 1.08rem;
+    height: 1.08rem;
+    margin-right: 0.33rem;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+.htl-enter-select, .htl-regis-select,
+.htl-regis-agree-select {
+    background: url('../images/sure.png') center center no-repeat;
+    background-size: 100% 100%;
+}
+.htl-enter-btn, .htl-regis-btn {
+    width: 25.63%;
+    height: 2.17rem;
+    margin: 1.08rem auto 0;
+    border: 1px solid #c9c9c9;
+    background: #49cc0b;
+    line-height: 2.17rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.21rem;
+}
+/*正则判断消息*/
+.htl-enter-njudge, .htl-enter-pjudge {
+    position: absolute;
+    top: 3.6rem;
+    width: 96%;
+    font-size: 0.5rem;
+    color: #f00;
+    text-align: center; 
+}
+.htl-enter-pjudge {
+    top: 9.6rem;
+    letter-spacing: -0.1rem;
+}
+.htl-enter .foot a:nth-child(5) {
+    background: url('../images/person_b.png') center 0.75rem no-repeat;
+    color: blue; 
+    background-size: 33.7% 1.75rem;
+}
+
+/*《修改密码》页面*/
+.htl-changew .htl-changew-bc,
+.htl-changewF label {
+    font-size: 1.33rem;
+}
+.htl-chageF-old, .htl-chageF-new,
+.htl-chageF-comf, .htl-identF-old,
+.htl-identF-new, .htl-identF-comf {
+    height: 2.96rem;
+    padding-left: 1.21rem;
+    line-height: 2.96rem;
+}
+.htl-chageF-new, .htl-identF-new {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+.htl-changeF-oldcue, .htl-changeF-newcue,
+.htl-changeF-comcue,
+.htl-identF-phonecue, .htl-identF-placecue,
+.htl-identF-emailcue  {
+    display: none;
+    margin: 0.7rem auto 0;
+    font-size: 0.6rem;
+    color: #f00;
+    text-align: center;
+    /*letter-spacing: -0.14rem;*/
+}
+.htl-changeF-oldcue,
+.htl-changeF-newcue,
+.htl-changeF-comcue {
+    letter-spacing: 0;
+}
+/*《首页》*/
+.htl-index {
+    padding-bottom: 5.83rem;
+    padding-top: 3.25rem;
+    background: #f0eff4;
+}
+.htl-index header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3.25rem;
+    z-index: 99;
+    background: #fff;
+    line-height: 3.25rem;
+    font-size: 1.33rem;
+    text-align: center;
+}
+.htl-index header a {
+    position: fixed;
+    right: 0;
+    width: 11.88%;
+    height: 3.25rem;
+    background: url('../images/re.png') center center no-repeat;
+    background-size: 0.92rem 1.08rem;
+}
+/*轮播图*/
+.htl-index-play {
+    height: 9.79rem;
+}
+.htl-index-play img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*消息通知*/
+.htl-index-notice {
+    margin-top: 0.25rem;
+    background: #fff;
+}
+.htl-index-notice div, .htl-index-noticepic {
+    float: left;
+    height: 1.96rem;
+}
+.htl-index-noticepic {
+    display: block;
+    position: relative;
+    width: 12.03%;
+    height: 1.96rem;
+    background: url('../images/notice.png') center center no-repeat;
+    background-size: 1.29rem 1.25rem;
+}
+.htl-index-noticepic span {
+    position: absolute;
+    top: 0.17rem;
+    right: 0.58rem;
+    min-width: 0.58rem;
+    height: 0.58rem;
+    background: #f00;
+    line-height: 0.68rem;
+    font-size: 0.4rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+.htl-index-noticetext {
+    padding-left: 1rem;
+    background: url('../images/divide.png') left 0 no-repeat;
+    line-height: 1.96rem;
+    font-size: 0.92rem;
+    color: #414141;
+    background-size: 0.21rem 1.96rem;
+}
+.htl-index-fourpar {
+    margin-top: 0.63rem;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background: #fff;
+}
+.htl-index-fourpar a {
+    color: #414141;
+}
+.htl-index-active, .htl-index-serve,
+.htl-index-yh, .htl-index-jr {
+    float: left;
+    width: 25%;
+    height: 6.88rem;
+    padding: 1.13rem 0 0.63rem;
+    line-height: 1.79rem;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.htl-index-active div, .htl-index-serve div,
+.htl-index-yh div, .htl-index-jr div {
+    width: 51.28%;
+    height: 3.33rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.92rem;
+}
+.htl-index-active, .htl-index-serve,
+.htl-index-yh {
+    border-right: 1px solid #d6d6d6;  
+    -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;  
+}
+.htl-index-active div {
+    background: #007aff url('../images/active.png') center center no-repeat;
+    background-size: 48.75% 1.75rem;
+}
+.htl-index-serve div {
+    background: #42cd00 url('../images/people_serve.png') center center no-repeat;
+    background-size: 48.75% 1.75rem;
+}
+.htl-index-yh div {
+    background: #ff2c55 url('../images/jryh.png') center center no-repeat;
+    background-size: 48.75% 1.75rem;
+}.htl-index-jr div {
+    background: #ffa101 url('../images/jryh_white.png') center center no-repeat;
+    background-size: 48.75% 1.75rem;
+}
+/*社区头条、物业服务、生活小助手*/
+.htl-index-threepar {
+    margin-top: 0.58rem;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background: #fff;
+}
+.htl-index-threepar a {
+    float: left;
+    width: 33.3%;
+    height: 10.38rem;
+    padding: 0.42rem 0 0 1.04rem;
+    color: #414141;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.htl-index-threepar div {
+    line-height: 2.21rem;
+    font-size: 1.33rem;
+}
+.htl-index-threepar p {
+    line-height: 0.88rem;
+    font-size: 0.65rem;
+    letter-spacing: -0.1rem;
+}
+.htl-index-sqtit div {
+    color: #7a5eab;
+}
+.htl-index-sqtit {
+    border-right: 1px solid #d6d6d6;
+    background: url('../images/demo/read.png') left bottom no-repeat;
+    background-size: 72% 4.75rem;
+}
+.htl-index-wyfw {
+    border-right: 1px solid #d6d6d6;
+    background: url('../images/demo/call.png') left bottom no-repeat;
+    background-size: 72% 4.75rem;
+}
+.htl-index-life {
+    background: url('../images/demo/invite.png') left bottom no-repeat;
+    background-size: 72% 4.75rem;
+}
+/*大转盘*/
+.htl-inedex-biground {
+    display: block;
+    overflow: hidden;
+    margin-top: 0.83rem;
+    padding: 0.13rem 0 1.42rem 3.59%;
+    background: #fff;
+    color: #414141;
+}
+.htl-inedex-biground div {
+    font-size: 1.33rem;
+    line-height: 2.29rem;
+}
+.htl-inedex-biground dt {
+    width: 32.81%;
+    height: 4.96rem;
+    padding: 0.08rem;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.htl-inedex-biground dt, .htl-inedex-biground dd {
+    float: left;
+}
+.htl-inedex-biground dt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.htl-inedex-biground dd {
+    width: 59%;
+    margin: 0.96rem 0 0 1.04rem;
+    line-height: 1.54rem;
+}
+/*导航点击后效果*/
+.htl-index .foot a:nth-child(1) {
+    color: #0079ff;
+    background: url('../images/home_b.png') center 0.75rem no-repeat;
+    background-size: 33.7% 1.75rem; 
+}
+
+/*《业主认证信息》页面*/
+.htl-identF {
+    width: 94.53%;
+    margin: 1.08rem auto 0;
+    padding: 0;
+    background: #f0eff4;
+    border-radius: 0.4rem;
+}
+.htl-identF-thr {
+    padding: 0 0.42rem;
+    background: #fff;
+}
+.htl-identF-sure {
+    height: 2.67rem;
+    margin-top: 2.67rem;
+}
+.htl-identF-sure input {
+    display: block;
+    width: 25.63%;
+    height: 2.17rem;
+    margin: 0 auto;
+    border: 1px solid #c9c9c9;
+    background: #4dcb12;
+    line-height: 2.17rem;
+    text-align: center;
+    border-radius: 0.4rem;
+}

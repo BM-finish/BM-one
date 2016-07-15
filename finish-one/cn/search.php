@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>搜索小区</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cyr-two.css" />
+    <script type="text/javascript" src="../js/zepto.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+    <div class="cyr-wrap">
+        <header class="cyr-top">
+            <a class="cyr-top-return" href=""></a>
+            <h2>搜索小区</h2>
+        </header>
+        <div class="cyr-ssxq-search-outer">
+            <div class="cyr-ssxq-search">
+                <input type="text" placeholder="搜索" />
+            </div>
+        </div>
+        <ul class="cyr-address-list">
+            <li>
+                <a href="">
+                    <p>金都杭城</p>
+                    <p>朝阳辈子湾路石门村一号</p>
+                    <span></span>
+                </a> 
+            </li>
+            <li>
+                <a href="">
+                    <p>金都杭城</p>
+                    <p>朝阳辈子湾路石门村一号</p>
+                    <span></span>
+                </a> 
+            </li>
+            <li>
+                <a href="">
+                    <p>金海国际</p>
+                    <p>广渠路21号（东四环路与广渠路交口大郊亭桥北角）</p>
+                    <span></span>
+                </a>  
+            </li>
+            <li>
+                <a href="">
+                    <p>百子湾东里</p>
+                    <p>朝阳区百子湾东里</p>
+                    <span></span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <p>中水电住宅小区</p>
+                <p>百子湾西里402</p>
+                <span></span>
+                </a>
+            </li> 
+        </ul>   
+    </div>
+</body>
+</html>

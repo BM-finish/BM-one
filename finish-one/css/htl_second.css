@@ -1,0 +1,73 @@
+/*《联系我们》*/
+.htl-us h1 {
+	position: fixed;
+	height: 3.17rem;
+	line-height: 3.17rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.5rem;
+}
+/*个人信息设置*/
+.htl-perset-mass {
+    padding: 0.67rem 0.42rem 0;
+    width: 94.53%;
+    margin: 1rem auto 0;
+    background: #fff;
+    font-size: 1.33rem;
+    color: #414141;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px #d6d6d6;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.htl-perset-mass li {
+    height: 2.63rem;
+    line-height: 2.63rem;
+    border-bottom: 1px solid #d6d6d6;
+}
+li.htl-perset-change {
+    padding-right: 0.83rem;
+    border: 0;
+    background: url('../images/left.png') right center no-repeat;
+    color: #414141;
+    background-size: 0.8rem 1.2rem;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;;
+}
+.htl-perset-mass span {
+    margin-right: 10.63%;
+}
+/*《注册页面》*/
+.htl-regis {
+    padding-left: 0.83rem;
+    padding-right: 0.83rem;
+}
+.htl-regis-bg {
+    box-shadow: 0 0 0 1px #d6d6d6;
+    border-radius: 5px;
+}
+.htl-regis-sex span, .htl-regis-sex em {
+    float: left;
+}
+.htl-regis-sex em {
+    position: relative;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0.68rem 1rem 0 1.7rem;
+    background: #f1eff5;
+    border-radius: 100%;
+    box-shadow: 0 0 0 1px #999;
+}
+.htl-man-sel b, .htl-woman-sel b {
+    display: none;  
+    position: absolute;
+    top: 0.11rem;
+    left: 0.11rem;
+    content: '';
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #999;
+    border-radius: 100%;
+}

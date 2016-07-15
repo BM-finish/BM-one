@@ -1,0 +1,73 @@
+/* 
+* @Author: anchen
+* @Date:   2016-07-12 15:39:08
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-07-14 19:59:24
+*/
+
+// 选择小区切换
+var cyrBindingJudge = true;
+$(".cyr-xzxq-binding strong span").tap(function(event) {
+    if (cyrBindingJudge) {
+        $(this).css({
+            backgroundImage: "url('../images-cyr/arrow_top.png')"
+        }).parent().parent().siblings(".cyr-binding-address-list").show();
+        cyrBindingJudge = false
+    } else {
+        $(this).css({
+            backgroundImage: "url('../images-cyr/arrow_bottom.png')"
+        }).parent().parent().siblings(".cyr-binding-address-list").show().hide();
+        cyrBindingJudge = true
+    };
+    
+})
+
+//绑定小区点击变蓝色
+$(".cyr-binding-address-list li").tap(function(event) {
+    $(this).css({
+        "color": "#0079ff",
+        "borderColor": "#0079ff"
+    }).siblings("li").css({
+        "color": "#414141",
+        "borderColor": "#d6d6d6"
+    })
+})
+//新增小区点击变蓝色
+$(".cyr-add-address-list li").tap(function(event) {
+    $(this).css({
+        "color": "#0079ff",
+        "borderColor": "#0079ff"
+    }).siblings("li").css({
+        "color": "#414141",
+        "borderColor": "#d6d6d6"
+    })
+})
+
+// 意见投诉类别列表
+$(".cyr-yjts-show").tap(function() {
+    $(this).children("ul").show();
+})
+$(".cyr-yjts-show ul li").tap(function() {
+    $(".cyr-yjts-show p").html($(this).html());
+    $(this).parent().addClass('add').hide();
+    // $(this).parent().hide();
+})
+
+// 我的物业点击勾选
+$(".cyr-wdwy-content ul li span").tap(function() {
+    $(this).html("✔").parents().siblings("li").children("span").html("");
+})
+
+//商品信息Tab切换
+$(".cyr-spxx-sort-tit div").tap(function() {
+    $(".cyr-spxx-sort-content div").eq($(this).index()*3).show().siblings().hide();
+})
+
+$(".cyr-spxx-sort-content-tit span").tap(function() {
+    $(this).addClass("cyr-spxx-list-sel").siblings().removeClass("cyr-spxx-list-sel").parents().siblings().children("ul").eq($(this).index()).addClass("cyr-spxx-list-sel").siblings().removeClass("cyr-spxx-list-sel");
+})
+
+$(".cyr-spxx-sort-content ul li").tap(function() {
+    $(this).addClass("cyr-spxx-li-sel").siblings().removeClass("cyr-spxx-li-sel").parent().parent().parent().hide();
+    $(".cyr-spxx-sort-tit span").eq($(this).parents().parents().parent("div").index()).html($(this).html());
+})

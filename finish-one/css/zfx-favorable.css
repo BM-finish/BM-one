@@ -1,0 +1,326 @@
+
+/*优惠活动*/
+html, body {
+    height: 100%;
+    background: #f0eff4;
+}
+.zfx-fav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.zfx-top {
+    width: 100%;
+    height: 3.33rem;
+}
+.zfx-top a {
+    position: fixed;
+    width: 3.13%;
+    height: 1.33rem;
+    top: 1rem;
+    left: 6.09%;
+    background: url("../images/TOP.png") no-repeat;
+    background-size: 100% 100%;
+}
+.zfx-top h1 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.33rem;
+}
+.zfx-data {
+    height: 9.83rem;
+}
+.zfx-data img {
+    width: 100%;
+    height: 9.83rem;
+}
+/*内容*/
+.zfx-dispose {
+    position: relative;
+    width: 90%;
+    height: 6rem;
+    margin: 1.42rem auto 0;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.21rem;
+    background: #fff;
+}
+.zfx-dispose dl dt {
+    float: left;
+    width: 20%;
+    height: 4.88rem;
+    padding: 0.63rem 5% 0.63rem 3%;
+}
+.zfx-dispose dl dt img {
+    width: 100%;
+    height: 4.88rem;
+}
+.zfx-dispose dd span {
+    display: block;
+    padding-top: 0.4rem;
+    font-size: 1.33rem;
+    color: #000;
+}
+.zfx-dispose dd strong {
+    display: block;
+    font-size: 0.92rem;
+    color: #ff0000;
+}
+.zfx-dispose dd em {
+    font-size: 0.92rem;
+    color: #666666;
+    text-decoration: line-through;
+}
+.zfx-dispose dd p {
+    font-size: 0.92rem;
+    color: #666666;
+}
+.zfx-dispose .zfx-relation {
+    position: absolute;
+    top: 1.96rem;
+    right: 5%;
+    width: 9%;
+    height: 2.17rem;
+    background: url("../images/phone.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+} 
+
+/*社区2*/
+.zfx-community {
+    height: 100%;
+}
+.zfx-community header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.33rem;
+    background: #f9f9f9;
+}
+.zfx-community header a {
+    position: fixed;
+    width: 3.13%;
+    height: 1.33rem;
+    top: 1rem;
+    left: 6.09%;
+    background: url("../images/TOP.png") no-repeat;
+    background-size: 100% 100%;
+}
+.zfx-community header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.33rem;
+}
+.zfx-time {
+    padding-top: 3.33rem;
+    height: 4.67rem;
+}
+.zfx-time span {
+    display: block;
+    font-size: 0.83rem;
+    text-align: center;
+    line-height: 4.67rem;
+}
+/*社区内容*/
+.zfx-particulars {
+    padding-bottom: 6.5rem;
+}
+.zfx-content {
+    width: 90%;
+    height: 24.8rem;
+    border-top: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    margin: 0 auto; 
+    background: #fff;
+}
+.zfx-football {
+    width: 100%;
+    height: 8.33rem;
+    padding: 0.96rem 5% 0.96rem 3%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d6d6d6;
+    background: #fff;
+}
+.zfx-football-img {
+    position: relative;
+    float: left;
+    width: 27%;
+    height: 6.5rem;
+}
+.zfx-football-img em {
+    position: absolute;
+    bottom: 0;
+    width: 47%;
+    height: 1.13rem;
+    font-size: 0.83rem;
+    line-height: 1.13rem;
+    text-align: center;
+    color: #fff;
+    background: #ff0000;
+}
+.zfx-football-img img {
+    width: 100%;
+    height: 100%;
+}
+.zfx-character {
+    float: left;
+    width: 67%;
+    height: 6.25rem;
+    margin-left: 6%;
+}
+.zfx-character p {
+    float: left;
+    font-size: 1.33rem;
+    color: #000;
+}
+.zfx-character span {
+    float: left;
+    width: 18%;
+    margin-top: 2rem;
+    padding-left: 12%;
+    font-size: 0.67rem;
+    color: #000;
+    background: url("../images/note.png") 0 50% no-repeat;
+    background-size: 0.79rem 0.79rem;
+}
+.zfx-character em {
+    float: left;
+    margin-top: 2rem;
+    color: #000;
+}
+.zfx-character strong {
+    float: left;
+    width: 18%;
+    margin-top: 2rem;
+    padding-left: 21%;
+    font-size: 0.67rem;
+    color: #000;
+    background: url("../images/love.png") 34% 50% no-repeat;
+    background-size: 0.79rem 0.79rem;
+}
+
+
+
+/*社区*/
+.zfx-headline {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding-bottom: 6rem;
+}
+.zfx-headline header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.33rem;
+    background: #f9f9f9;
+    box-shadow: 0 1px #d6d6d6;
+    z-index: 1;
+}
+.zfx-headline header a {
+    position: fixed;
+    width: 3.13%;
+    height: 1.33rem;
+    top: 1rem;
+    left: 6.09%;
+    background: url("../images/TOP.png") no-repeat;
+    background-size: 100% 100%;
+}
+.zfx-headline header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.33rem;
+}
+/*头条内容*/
+.zfx-topline {
+    padding: 3.33rem 0 6.2rem 0;
+    background: #fff;
+}
+.zfx-passport dl {
+    width: 91%;
+    height: 6.25rem;
+    margin: 0 auto;
+    padding: 0.83rem 0 0.58rem 0;
+    box-shadow: 0 1px #d6d6d6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.zfx-passport dl dt {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 4.88rem;
+}
+.zfx-passport dl dt img {
+    width: 100%;
+    height: 4.88rem;
+}
+.zfx-passport dl dt em {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 62%;
+    height: 1.17rem;
+    font-size: 0.83rem;
+    text-align: center;
+    line-height: 1.17rem;
+    background: #ff0000;
+    color: #fff;
+}
+.zfx-passport dl dd {
+    float: left;
+    width: 78%;
+    height: 4rem;
+    margin-left: 2%;
+}
+.zfx-passport dl dd p {
+    display: inline;
+    font-size: 1.17rem;
+    color: #000;
+}
+.zfx-passport dl dd em {
+    float: right;
+    margin-top: 0.67rem;
+    font-size: 0.92rem;
+    color: #666666;
+}
+.zfx-passport dl div {
+    float: left;
+    width: 78%;
+    height: 0.83rem;
+    margin-left: 2%;
+}
+.zfx-passport dl div span {
+    float: left;
+    padding: 0 5% 0 9%;
+    font-size: 0.92rem;
+    color: #666666;
+    background: url("../images/note.png") 0 50% no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+.zfx-passport dl div em {
+    float: left;
+    padding-right: 6%;
+}
+.zfx-passport dl div strong {
+    float: left;
+    padding-left: 9%;
+    color: #666666;
+    background: url("../images/love.png") 0 50% no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+/*尾部导航点击后效果*/
+.zfx-headline .foot a:nth-child(4) {
+    color: #0079ff;
+    background: url('../images/community_b.png') center 0.75rem no-repeat;
+    background-size: 33.7% 1.75rem; 
+}
