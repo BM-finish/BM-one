@@ -166,10 +166,11 @@ html, body {
     font-size: 0.92rem;
     line-height: 1rem;
 }
-.zfx-details span {
+.zfx-details a {
     float: left;
     margin: 1rem 0 0 54%;
     padding: 0 4% 0 8%;
+    color: #666666;
     background: url("../images/note.png") 0 50% no-repeat;
     background-size: 0.75rem 0.75rem;
 }
@@ -181,8 +182,13 @@ html, body {
     float: left;
     margin-top: 1rem;
     padding-left: 1.3rem;
-    color: #ff1111;
-    background: url("../images/loves.png") 0 50% no-repeat;
+    color: #666666;
+    background: url("../images/love.png") 0 50% no-repeat;
+    background-size: 0.75rem 0.75rem;
+}
+.zfx-details .zfx-show {
+    color: #ff0000;
+     background: url("../images/loves.png") 0 50% no-repeat;
     background-size: 0.75rem 0.75rem;
 }
 
