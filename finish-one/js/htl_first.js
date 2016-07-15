@@ -129,6 +129,9 @@ $(function() {
 		$('.htl-man-sel b').hide();
 	});
 
-	
+	//《报修》
+	$('.htl-rep-sub').tap(function() {
+		location.href = "repair_message.php"
+	})
 	
 })
