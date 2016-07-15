@@ -18,9 +18,9 @@
             <h2>意见投诉</h2>
         </header>
         <form class="cyr-yjts-form" action="">
-            <p class="cyr-yjts-title">
+            <p class="cyr-yjts-title">欢迎您是要xx物业投诉意见。您可以对我们的工作提出意见和建议，也可以向我们咨询和投诉！
                 <a class="cyr-yjts-tel" href="tel:123456789"></a>
-            欢迎您是要xx物业投诉意见。您可以对我们的工作提出意见和建议，也可以向我们咨询和投诉！</p>
+            </p>
             <div class="cyr-yjts-detail clearfix">
                 <h2>类别</h2>
                 <div class="cyr-yjts-show">

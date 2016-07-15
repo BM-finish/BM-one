@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-07-12 15:39:08
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-07-15 01:14:38
+* @Last Modified time: 2016-07-15 21:14:51
 */
 
 // 选择小区切换
@@ -49,7 +49,7 @@ $(".cyr-yjts-show").tap(function() {
 })
 $(".cyr-yjts-show ul li").tap(function() {
     $(".cyr-yjts-show p").html($(this).html());
-    $(this).parent().addClass('add').hide();
+    $(this).parent().hide();
     // $(this).parent().hide();
 })
 
@@ -60,6 +60,9 @@ $(".cyr-wdwy-content ul li span").tap(function() {
 
 //商品信息Tab切换
 $(".cyr-spxx-sort-tit div").tap(function() {
+    $(this).children("span").css({
+        background: "url()"
+    })
     $(".cyr-spxx-sort-content div").eq($(this).index()*3).show().siblings().hide();
 })
 
@@ -69,7 +72,9 @@ $(".cyr-spxx-sort-content-tit span").tap(function() {
 
 $(".cyr-spxx-sort-content ul li").tap(function() {
     $(this).addClass("cyr-spxx-li-sel").siblings().removeClass("cyr-spxx-li-sel").parent().parent().parent().hide();
-    $(".cyr-spxx-sort-tit span").eq($(this).parents().parents().parent("div").index()).html($(this).html());
+    $(".cyr-spxx-sort-tit span").css({
+        background: "url('../images/goods_tri.png') 100% 1rem no-repeat;"
+    }).eq($(this).parents().parents().parent("div").index()).html($(this).html());
 })
 
 // 评论页

@@ -6,6 +6,7 @@
     <title>选择小区</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/cyr-one.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cyr-two.css" />
     <script type="text/javascript" src="../js/zepto.min.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>

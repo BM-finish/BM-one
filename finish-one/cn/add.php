@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>新增小区</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cyr-one.css" />
     <link rel="stylesheet" type="text/css" href="../css/cyr-two.css" />
     <script type="text/javascript" src="../js/zepto.min.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>

@@ -19,11 +19,11 @@
 		</header>
 		<!-- 导航条 -->
 		<nav class="clearfix">
-			<a href="" class="tun">团上团下</a>
+			<a href="#" class="tun">团上团下</a>
 			<a href="allgoods.php" class="line">在线定餐</a>
 			<a href="repair.php" class="bxsq">报修申请</a>
-			<a href="" class="road">地铁线路</a>
-			<a href="" class="bus">公交站点</a>
+			<a href="#" class="road">地铁线路</a>
+			<a href="#" class="bus">公交站点</a>
 			<a href="zfx-supermarket.php" class="surp">社区超市</a>
 			<a href="zfx-favorable.php" class="today">今日优惠</a>
 		</nav>
@@ -44,23 +44,23 @@
 						<a href="zfx-milk.php">订奶</a>						
 					</td>
 					<td>
-						<a href="">送水</a>		
+						<a href="#">送水</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">家政</a>			
+						<a href="#">家政</a>			
 					</td>
 					<td>
-						<a href="">快递</a>		
+						<a href="#">快递</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">开锁</a>	
+						<a href="#">开锁</a>	
 					</td>
 					<td>
-						<a href="">疏通</a>		
+						<a href="#">疏通</a>		
 					</td>
 				</tr>
 			</tbody>
@@ -70,7 +70,7 @@
 			<tbody>
 				<tr>
 					<td rowspan="3" class="house-tit">
-						<a href="">
+						<a href="#">
 							<span>居家</span>
 							<strong>服务</strong>
 							<em class="next"></em>
@@ -81,23 +81,23 @@
 						<a href="zfx-supermarket.php">超市</a>						
 					</td>
 					<td>
-						<a href="">药店</a>		
+						<a href="#">药店</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">医院</a>			
+						<a href="#">医院</a>			
 					</td>
 					<td>
-						<a href="">ATM</a>		
+						<a href="#">ATM</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">银行</a>	
+						<a href="#">银行</a>	
 					</td>
 					<td>
-						<a href="">厕所</a>		
+						<a href="#">厕所</a>		
 					</td>
 				</tr>
 			</tbody>
@@ -107,7 +107,7 @@
 			<tbody>
 				<tr>
 					<td rowspan="3" class="food-tit">
-						<a href="">
+						<a href="allgoods.php">
 							<span>美食</span>
 							<strong>餐饮</strong>
 							<em class="next"></em>
@@ -117,26 +117,26 @@
 						</a>
 					</td>
 					<td>
-						<a href="">西餐</a>						
+						<a href="allgoods.php">西餐</a>						
 					</td>
 					<td>
-						<a href="">中餐</a>		
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="">小吃快餐</a>			
-					</td>
-					<td>
-						<a href="">川菜</a>		
+						<a href="allgoods.php">中餐</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">火锅</a>	
+						<a href="allgoods.php">小吃快餐</a>			
 					</td>
 					<td>
-						<a href="">韩国料理</a>		
+						<a href="allgoods.php">川菜</a>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="allgoods.php">火锅</a>	
+					</td>
+					<td>
+						<a href="allgoods.php">韩国料理</a>		
 					</td>
 				</tr>
 			</tbody>
@@ -146,7 +146,7 @@
 			<tbody>
 				<tr>
 					<td rowspan="3" class="play-tit">
-						<a href="">
+						<a href="#">
 							<span>休闲</span>
 							<strong>娱乐</strong>
 							<em class="next"></em>
@@ -156,26 +156,26 @@
 						</a>
 					</td>
 					<td>
-						<a href="">电影院</a>						
+						<a href="#">电影院</a>						
 					</td>
 					<td>
-						<a href="">KTV</a>		
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="">酒吧</a>			
-					</td>
-					<td>
-						<a href="">咖啡厅</a>		
+						<a href="#">KTV</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">丽人</a>	
+						<a href="#">酒吧</a>			
 					</td>
 					<td>
-						<a href="">洗浴</a>		
+						<a href="#">咖啡厅</a>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#">丽人</a>	
+					</td>
+					<td>
+						<a href="#">洗浴</a>		
 					</td>
 				</tr>
 			</tbody>
@@ -185,7 +185,7 @@
 			<tbody>
 				<tr>
 					<td rowspan="3" class="traffic-tit">
-						<a href="">
+						<a href="#">
 							<span>交通</span>
 							<strong>设施</strong>
 							<em class="next"></em>
@@ -195,26 +195,26 @@
 						</a>
 					</td>
 					<td>
-						<a href="">公交站</a>						
+						<a href="#">公交站</a>						
 					</td>
 					<td>
-						<a href="">加油站</a>		
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="">火车代售点</a>			
-					</td>
-					<td>
-						<a href="">长途汽车站</a>		
+						<a href="#">加油站</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">停车场</a>	
+						<a href="#">火车代售点</a>			
 					</td>
 					<td>
-						<a href="">火车站</a>		
+						<a href="#">长途汽车站</a>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#">停车场</a>	
+					</td>
+					<td>
+						<a href="#">火车站</a>		
 					</td>
 				</tr>
 			</tbody>
@@ -224,7 +224,7 @@
 			<tbody>
 				<tr>
 					<td rowspan="3" class="hotel-tit">
-						<a href="">
+						<a href="#">
 							<span>酒店</span>
 							<em class="next"></em>
 							<b class="quan"></b>
@@ -233,26 +233,26 @@
 						</a>
 					</td>
 					<td>
-						<a href="">公交站</a>						
+						<a href="#">公交站</a>						
 					</td>
 					<td>
-						<a href="">加油站</a>		
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="">火车代售点</a>			
-					</td>
-					<td>
-						<a href="">长途汽车站</a>		
+						<a href="#">加油站</a>		
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="">停车场</a>	
+						<a href="#">火车代售点</a>			
 					</td>
 					<td>
-						<a href="">火车站</a>		
+						<a href="#">长途汽车站</a>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#">停车场</a>	
+					</td>
+					<td>
+						<a href="#">火车站</a>		
 					</td>
 				</tr>
 			</tbody>
