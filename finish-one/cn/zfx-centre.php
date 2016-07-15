@@ -16,7 +16,7 @@
     <div class="zfx-centre htl-perset">
         <header>
             <a href=""></a>
-            <em>我的消息</em>
+            <em>邀请加入</em>
         </header>
         <div class="htl-perset-bigpic">
             <img src="../images/round.png" alt="" />

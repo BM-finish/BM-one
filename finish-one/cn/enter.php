@@ -24,22 +24,26 @@
                 <div class="htl-enter-user clearfix">
                      <label for="htl-enter-username ">用户名</label>
                      <div class="htl-enterF-zj">
-                         <input type="text" id="htl-enter-username" />
+                         <input type="text" id="htl-enter-username" name="username" />
                      </div>
                 </div>
                 <div class="htl-enter-passw clearfix">
                     <label for="htl-enter-password">密码</label>
                     <div class="htl-enterF-zj">
-                        <input type="password" placeholder="6-16位" id="htl-enter-password" />
+                        <input type="password" placeholder="6-16位" id="htl-enter-password" name="password" />
                     </div>
                 </div>
             </div>
             <div class="htl-enter-remb clearfix">
+                <p class="cyr-enter-tip">请输入正确的用户名和密码</p>
                 <span></span>
                 <em>记住密码</em>
             </div>
             <div class="htl-enter-btn">登录</div>
         </form>
+        <div class="cyr-enter-succeed">登陆成功！
+            <span>确定</span>
+        </div>
         <?php 
             include 'common_footer.html';
         ?>

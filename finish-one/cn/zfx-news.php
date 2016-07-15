@@ -11,7 +11,6 @@
     <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
-    <script type="text/javascript" src="../js/zfx-show.js"></script>
 </head>
 <body>
 	<div class="zfx-news">
@@ -32,7 +31,7 @@
 				<p>
 					【英媒：两名持假护照冒名者是想移民的伊朗人】据每日电讯，一位称是冒名登上马航MH370班机乘客的朋友称，这两名持假护照冒名者其实是伊朗人。他们是在吉隆坡购买假护照，买了经由北京前往阿姆斯特丹的机票。受访者称他在求学时期就认识其中一人，他们购买假护照，为的是要移民到欧洲。英国《卫报》表示，目前这一消息尚未获得官方回应。
 				</p>
-				<a href="comment.php" title="">1989</a>
+				<span>1989</span>
 				<em>|</em>
 				<strong>989</strong>
 			</div>

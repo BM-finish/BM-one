@@ -71,3 +71,30 @@ li.htl-perset-change {
     background: #999;
     border-radius: 100%;
 }
+.cyr-register-succeed, .cyr-enter-succeed {
+    display: none;
+    position: fixed;
+    top: 10.33rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 61%;
+    height: 5.92rem;
+    line-height: 4rem;
+    font-size: 0.92rem;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.3;
+}
+.cyr-register-succeed span, .cyr-enter-succeed span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.5rem;
+    width: 30%;
+    height: 2rem;
+    margin: 0 auto;
+    box-shadow: 0 0 0 1px #fff;
+    line-height: 2rem;
+}

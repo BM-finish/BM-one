@@ -24,7 +24,7 @@
             </div>
             <div class="zfx-content">
                 <div class="zfx-football"> 
-                    <a href="zfx-news.php">
+                    <a href="zfx-attend.php">
                        <div class="zfx-football-img">
                             <em>社区</em>
                             <img src="../images/community.png" alt="" />
@@ -38,7 +38,7 @@
                     </a>              
                 </div>
                 <div class="zfx-football"> 
-                    <a href="zfx-news.php">
+                    <a href="zfx-attend.php">
                        <div class="zfx-football-img">
                             <em>社区</em>
                             <img src="../images/community.png" alt="" />
@@ -52,7 +52,7 @@
                     </a>              
                 </div>
                 <div class="zfx-football"> 
-                    <a href="zfx-news.php">
+                    <a href="zfx-attend.php">
                        <div class="zfx-football-img">
                             <em>社区</em>
                             <img src="../images/community.png" alt="" />

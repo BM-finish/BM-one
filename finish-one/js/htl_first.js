@@ -2,7 +2,40 @@ $(function() {
 	// 《登入》页面
 	// 跳转页面
 	$('.htl-create').tap(function() {
-		location.href = "register.html"
+		location.href = "register.php"
+	})
+	// 注册
+	$(".htl-regis-btn").tap(function() {
+		$.post("../php/register.php", $("form").serializeArray(), function(response) {
+			if (!response.state) {
+				$('.htl-regis-njudge').html('用户名已存在');
+			} else {
+				$(".cyr-register-succeed").show();
+			}
+		})
+	})
+	$(".cyr-register-succeed span").tap(function() {
+		var registerOk = setTimeout(function() {
+			$(".cyr-register-succeed").hide();
+		}, 1000);
+		window.location.href = "enter.php";
+	})
+	// 登录
+	$(".htl-enter-btn").tap(function() {
+		$.post("../php/login.php", $("form").serializeArray(), function(response) {
+			if (!response.state) {
+				$(".cyr-enter-tip").show();
+				console.log(response);
+			} else {
+				$(".cyr-enter-succeed").show();
+			}
+		})
+	})
+	$(".cyr-enter-succeed span").tap(function() {
+		var registerOk = setTimeout(function() {
+			$(".cyr-enter-succeed").hide();
+		}, 1000);
+		window.location.href = "centre.php";
 	})
 	// 记住密码
 	$('.htl-enter-remb em, .htl-enter-remb span').tap(function() {
@@ -104,7 +137,9 @@ $(function() {
 		$('.htl-man-sel b').hide();
 	});
 
-	// 《登录》页面
-	
+	//《报修》
+	$('.htl-rep-sub').tap(function() {
+		location.href = "repair_message.php"
+	})
 	
 })

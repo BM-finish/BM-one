@@ -94,8 +94,6 @@
         ?>
     </div>
     <script type="text/javascript" src="../js/js-one.js"></script>
-    <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/event.js"></script>
 </body>
 </html>
-<dl><dt><a href=""><img src="../images/demo/food.jpg" alt="" /></a></dt><dd><a href="">涛</a><span>回复</span><em>5分钟前</em><p>你是傻逼，漂亮的傻逼！</p></dd></dl>

@@ -37,7 +37,7 @@
                 <div></div>
                 <span>社区活动</span>
             </a>
-            <a href="myproperty.php" class="htl-index-serve">
+            <a href="complaint.php" class="htl-index-serve">
                 <div></div>
                 <span>物业客服</span>
             </a>
