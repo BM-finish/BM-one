@@ -1,24 +1,8 @@
 $(function() {
 	// 《登入》页面
-	// 用户名的判断
-	$('#htl-enter-username').blur(function() {
-		var htlEnterUser = /^[a-zA-z][a-zA-Z0-9_]{2,9}$/ig;
-		var htlUserIsbool = htlEnterUser.test($(this).val());
-		if(!htlUserIsbool) {
-			$('.htl-enter-njudge').html('用户名格式错误');
-		}else {
-			$('.htl-enter-njudge').html('');
-		}
-	})
-	// 密码的判断
-	$('#htl-enter-password').blur(function() {
-		var htlEnterPass = /^[a-zA-Z]\w{5,15}$/ig;
-		var htlPassIsbool = htlEnterPass.test($(this).val());
-		if(!htlPassIsbool) {
-			$('.htl-enter-pjudge').html('以字母开头，长度在6~16之间，只能包含字符、数字和下划线');
-		}else {
-			$('.htl-enter-pjudge').html('');
-		}
+	// 跳转页面
+	$('.htl-create').tap(function() {
+		location.href = "register.php"
 	})
 	// 记住密码
 	$('.htl-enter-remb em, .htl-enter-remb span').tap(function() {
@@ -75,6 +59,25 @@ $(function() {
 		}
 	})
 	// 《注册》页面
+	$('#htl-regis-username').blur(function() {
+		var htlEnterUser = /^[a-zA-z][a-zA-Z0-9_]{2,9}$/ig;
+		var htlUserIsbool = htlEnterUser.test($(this).val());
+		if(!htlUserIsbool) {
+			$('.htl-regis-njudge').html('用户名格式错误');
+		}else {
+			$('.htl-regis-njudge').html('');
+		}
+	})
+	// 密码的判断
+	$('#htl-regis-password').blur(function() {
+		var htlEnterPass = /^[a-zA-Z]\w{5,15}$/ig;
+		var htlPassIsbool = htlEnterPass.test($(this).val());
+		if(!htlPassIsbool) {
+			$('.htl-regis-pjudge').html('以字母开头，长度在6~16之间，只能包含字符、数字和下划线');
+		}else {
+			$('.htl-regis-pjudge').html('');
+		}
+	})
 	// 记住密码
 	$('.htl-regis-remb em, .htl-regis-remb span').tap(function() {
 		if($('.htl-regis-remb span').hasClass('htl-regis-select')) {
@@ -102,8 +105,6 @@ $(function() {
 	});
 
 	// 《登录》页面
-	$('.htl-create').tap(function() {
-		location.href = "register.php"
-	})
+	
 	
 })

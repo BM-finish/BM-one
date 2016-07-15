@@ -20,7 +20,6 @@
         </header>
         <!-- 主体 -->
         <form action="" class="htl-enterF">
-            <div class="htl-enter-njudge"></div>
             <div class="htl-enter-bg">
                 <div class="htl-enter-user clearfix">
                      <label for="htl-enter-username ">用户名</label>
@@ -39,7 +38,6 @@
                 <span></span>
                 <em>记住密码</em>
             </div>
-            <div class="htl-enter-pjudge"></div>
             <div class="htl-enter-btn">登录</div>
         </form>
         <?php 

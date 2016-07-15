@@ -20,6 +20,7 @@
         </header>
         <!-- 主体 -->
         <form action="" class="htl-regisF">
+            <div class="htl-regis-njudge"></div>
             <div class="htl-regis-bg">
                 <!-- 用户名 -->
                 <div class="htl-regis-user clearfix">
@@ -47,7 +48,8 @@
                         <input type="password" placeholder="6-16位" id="htl-regis-password" />
                     </div>
                 </div>
-            </div>          
+            </div>  
+            <div class="htl-regis-pjudge"></div>        
             <div class="htl-regis-remb clearfix">
                 <span></span>
                 <em>记住密码</em>
