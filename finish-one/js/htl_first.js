@@ -2,32 +2,7 @@ $(function() {
 	// 《登入》页面
 	// 跳转页面
 	$('.htl-create').tap(function() {
-		location.href = "register.php"
-	})
-	// 注册
-	$(".htl-regis-btn").click(function() {
-		$.post("../php/register.php", $("form").serializeArray(), function(response) {
-			if (!response.state) {
-				$(".tip").html("用户名已存在");
-				console.log(response)
-			} else {
-				$(".tip").html("注册成功");
-				console.log(response);
-				window.location.href = "enter.php";
-			}
-		})
-	})
-	// 登录
-	$(".htl-regis-btn").click(function() {
-		$.post("../php/login.php", $("form").serializeArray(), function(response) {
-			if (!response.state) {
-				$(".tip").html("请输入正确的用户名");
-				console.log(response);
-			} else {
-				$(".tip").html("登陆成功");
-				console.log(response);
-			}
-		})
+		location.href = "register.html"
 	})
 	// 记住密码
 	$('.htl-enter-remb em, .htl-enter-remb span').tap(function() {
@@ -129,9 +104,7 @@ $(function() {
 		$('.htl-man-sel b').hide();
 	});
 
-	//《报修》
-	$('.htl-rep-sub').tap(function() {
-		location.href = "repair_message.php"
-	})
+	// 《登录》页面
+	
 	
 })

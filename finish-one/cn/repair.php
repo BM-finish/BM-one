@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/common_footer.css">
     <script src="../js/zepto.min.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/htl_first.js"></script>
 </head>
 <body>
     <div class="htl-repair">
@@ -46,7 +45,7 @@
                 <div class="htl-rep-serve">要求服务描述</div>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
                 <div class="htl-rep-fBtn clearfix">
-                    <input type="submit" class="htl-rep-sub" />
+                    <input type="submit" />
                     <span>取消</span>
                 </div>
             </form>

@@ -64,9 +64,5 @@
         ?>
     </div>
     <script type="text/javascript" src="../js/event.js"></script>
-    <script type="text/javascript" src="../js/touch.js"></script>
-    <script type="text/javascript" src="../js/fx.js"></script>
-    <script type="text/javascript" src="../js/fx_methods.js"></script>
-    <script type="text/javascript" src="../js/repair_message.js"></script>
 </body>
 </html>

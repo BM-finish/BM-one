@@ -71,18 +71,3 @@ li.htl-perset-change {
     background: #999;
     border-radius: 100%;
 }
-.cyr-register-succeed {
-    /*display: none;*/
-    position: fixed;
-    top: 16.33rem;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 61%;
-    height: 5.92rem;
-    font-size: 0.92rem;
-    text-align: center;
-    color: #fff;
-    background-color: #000;
-    opacity: 0.3;
-}

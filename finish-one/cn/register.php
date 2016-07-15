@@ -26,7 +26,7 @@
                 <div class="htl-regis-user clearfix">
                      <label for="htl-regis-username ">用户名</label>
                      <div class="htl-regisF-zj">
-                         <input type="text" id="htl-regis-username" name="username" />
+                         <input type="text" id="htl-regis-username" />
                      </div>
                 </div>
                 <!-- 性别 -->
@@ -45,7 +45,7 @@
                 <div class="htl-regis-passw clearfix">
                     <label for="htl-regis-password">密码</label>
                     <div class="htl-regisF-zj">
-                        <input type="password" placeholder="6-16位" id="htl-regis-password" name="password" />
+                        <input type="password" placeholder="6-16位" id="htl-regis-password" />
                     </div>
                 </div>
             </div>  
@@ -60,9 +60,6 @@
             </div>
             <div class="htl-regis-btn">注册</div>
         </form>
-        <div class="cyr-register-succeed">
-            <input type="button" value="确定" />
-        </div>
         <?php 
             include 'common_footer.html';
         ?>
