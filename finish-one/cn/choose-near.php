@@ -59,5 +59,7 @@
             </li> 
         </ul>     
     </div>
+    <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/event.js"></script>
 </body>
 </html>

@@ -56,6 +56,8 @@
             include 'common_footer.html';
          ?>
 	</div>
+	<script type="text/javascript" src="../js/event.js"></script>
+	<script type="text/javascript" src="../js/touch.js"></script>
 	<script type="text/javascript">
 		$(".zfx-participate").tap(function() {
 			$(this).siblings('.zfx-people').css({

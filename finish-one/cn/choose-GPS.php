@@ -53,4 +53,6 @@
             <li><a href="">厦门市</a></li>
         </ul>     
     </div>
+    <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/event.js"></script>
 </html>

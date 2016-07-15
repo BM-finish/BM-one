@@ -20,5 +20,7 @@
             <input type="text" class="" placeholder="直接输入小区注册码" />
         </div> 
     </div>
+    <script type="text/javascript" src="../js/event.js"></script>
+    <script type="text/javascript" src="../js/touch.js"></script>
 </body>
 </html>

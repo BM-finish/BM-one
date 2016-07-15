@@ -63,7 +63,7 @@
     bottom: 0.5rem;
     width: 9%;
     height: 2.17rem;
-    background: url("../images-cyr/tel.png") 0 0 no-repeat;
+    background: url("../images/tel.png") 0 0 no-repeat;
     background-size: 100%;
 }
 .cyr-yjts-detail {
@@ -90,7 +90,7 @@
     margin-left: 3%;
     padding: 0 10% 0 4%;
     border: 1px solid #d6d6d6;
-    background: url("../images-cyr/triangle.png") 93% 0.71rem no-repeat;
+    background: url("../images/triangle.png") 93% 0.71rem no-repeat;
     background-size: 5% 36%;
 }
 .cyr-yjts-show p {
@@ -192,7 +192,7 @@
 .cyr-spxx-sort-tit div span {
     height: 100%;
     padding-right: 7.51%;
-    background: url("../images-cyr/goods_tri.png") 100% 1rem no-repeat;
+    background: url("../images/goods_tri.png") 100% 1rem no-repeat;
     background-size: 0.33rem 0.33rem;
 }
 .cyr-spxx-sort-tit div:nth-child(3) {

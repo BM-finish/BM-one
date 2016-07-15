@@ -2,7 +2,7 @@ $(function() {
 	// 《登入》页面
 	// 跳转页面
 	$('.htl-create').tap(function() {
-		location.href = "register.php"
+		location.href = "register.html"
 	})
 	// 记住密码
 	$('.htl-enter-remb em, .htl-enter-remb span').tap(function() {
