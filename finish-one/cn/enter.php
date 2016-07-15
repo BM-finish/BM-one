@@ -24,13 +24,13 @@
                 <div class="htl-enter-user clearfix">
                      <label for="htl-enter-username ">用户名</label>
                      <div class="htl-enterF-zj">
-                         <input type="text" id="htl-enter-username" />
+                         <input type="text" id="htl-enter-username" name="username" />
                      </div>
                 </div>
                 <div class="htl-enter-passw clearfix">
                     <label for="htl-enter-password">密码</label>
                     <div class="htl-enterF-zj">
-                        <input type="password" placeholder="6-16位" id="htl-enter-password" />
+                        <input type="password" placeholder="6-16位" id="htl-enter-password" name="password" />
                     </div>
                 </div>
             </div>

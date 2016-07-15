@@ -4,6 +4,31 @@ $(function() {
 	$('.htl-create').tap(function() {
 		location.href = "register.html"
 	})
+	// 注册
+	$(".htl-regis-btn").click(function() {
+		$.post("../php/register.php", $("form").serializeArray(), function(response) {
+			if (!response.state) {
+				$(".tip").html("用户名已存在");
+				console.log(response)
+			} else {
+				$(".tip").html("注册成功");
+				console.log(response);
+				window.location.href = "enter.php";
+			}
+		})
+	})
+	// 登录
+	$(".htl-regis-btn").click(function() {
+		$.post("../php/login.php", $("form").serializeArray(), function(response) {
+			if (!response.state) {
+				$(".tip").html("请输入正确的用户名");
+				console.log(response);
+			} else {
+				$(".tip").html("登陆成功");
+				console.log(response);
+			}
+		})
+	})
 	// 记住密码
 	$('.htl-enter-remb em, .htl-enter-remb span').tap(function() {
 		if($('.htl-enter-remb span').hasClass('htl-enter-select')) {
@@ -104,7 +129,6 @@ $(function() {
 		$('.htl-man-sel b').hide();
 	});
 
-	// 《登录》页面
 	
 	
 })
