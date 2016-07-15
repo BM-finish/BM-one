@@ -40,11 +40,6 @@
     color: #414141;
     text-align: center;
 }
-/*尾部导航公共样式点击后效果*/
-.htl-allgoods .foot a:nth-child(3) {
-    background: url('../images/tel_b.png') center 0.75rem no-repeat;
-    background-size: 33.7% 1.75rem; 
-}
 
 /*意见投诉*/
 .cyr-yjts-form {
@@ -68,7 +63,7 @@
     bottom: 0.5rem;
     width: 9%;
     height: 2.17rem;
-    background: url("../images/tel.png") 0 0 no-repeat;
+    background: url("../images-cyr/tel.png") 0 0 no-repeat;
     background-size: 100%;
 }
 .cyr-yjts-detail {
@@ -95,7 +90,7 @@
     margin-left: 3%;
     padding: 0 10% 0 4%;
     border: 1px solid #d6d6d6;
-    background: url("../images/triangle.png") 93% 0.71rem no-repeat;
+    background: url("../images-cyr/triangle.png") 93% 0.71rem no-repeat;
     background-size: 5% 36%;
 }
 .cyr-yjts-show p {
@@ -197,7 +192,7 @@
 .cyr-spxx-sort-tit div span {
     height: 100%;
     padding-right: 7.51%;
-    background: url("../images/goods_tri.png") 100% 1rem no-repeat;
+    background: url("../images-cyr/goods_tri.png") 100% 1rem no-repeat;
     background-size: 0.33rem 0.33rem;
 }
 .cyr-spxx-sort-tit div:nth-child(3) {
@@ -272,6 +267,7 @@
 }
 .cyr-spxx-content {
     display: block;
+    width: 100%;
 }
 .cyr-spxx-content dl {
     float: left;
@@ -332,4 +328,88 @@
 .cyr-spxx-content .cyr-spxx-content-near {
     float: right;
     margin-right: 7%;
+}
+
+/*评论页*/
+.cyr-comment {
+    position: relative;
+    width: 90%;
+    margin: 1rem auto;
+    box-shadow: 0 0 0 1px #d6d6d6;
+}  
+#cyr-comment-say {
+    display: block;
+    width: 94%;
+    height: 5.59rem;
+    padding: 0.83rem 3%;
+    border: none;
+    resize: none;
+}
+.cyr-comment span {
+    position: absolute;
+    bottom: 0.58rem;
+    right: 3%;
+    font-size: 0.92rem;
+    line-height: 1rem;
+    color: #0079ff;
+}
+.cyr-comment-content {
+    width: 90%;
+    margin: 1rem auto;
+    box-shadow: 0 0 0 1px #d6d6d6;
+    background-color: #fff;
+}
+.cyr-comment-content dl {
+    float: left;
+    width: 94%;  
+    padding: 0.67rem 3%;
+    border-bottom: 1px solid #d6d6d6;
+}
+.cyr-comment-content dl dt {
+    float: left;
+    width: 10.17%;
+    height: 2.29rem;
+    margin-right: 3%;
+}
+.cyr-comment-content dl dt a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cyr-comment-content dl dd {
+    float: left;
+    width: 86.83%;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #666;
+}
+.cyr-comment-content dl dd a, .cyr-comment-content dl dd span, .cyr-comment-content dl dd p {
+    float: left;
+}
+.cyr-comment-content dl dd a {
+    margin-right: 2.3%;
+    color: #0079ff;
+}
+.cyr-comment-content dl dd p {
+    width: 100%;
+    color: #414141;
+}
+.cyr-comment-content dl dd em {
+    float: right;
+}
+.cyr-comment-succeed {
+    display: none;
+    position: fixed;
+    top: 16.33rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 61%;
+    height: 5.92rem;
+    font-size: 0.92rem;
+    line-height: 5.92rem;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.3;
 }

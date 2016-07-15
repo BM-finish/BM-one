@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-07-12 15:39:08
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-07-14 19:59:24
+* @Last Modified time: 2016-07-15 01:14:38
 */
 
 // 选择小区切换
@@ -70,4 +70,16 @@ $(".cyr-spxx-sort-content-tit span").tap(function() {
 $(".cyr-spxx-sort-content ul li").tap(function() {
     $(this).addClass("cyr-spxx-li-sel").siblings().removeClass("cyr-spxx-li-sel").parent().parent().parent().hide();
     $(".cyr-spxx-sort-tit span").eq($(this).parents().parents().parent("div").index()).html($(this).html());
+})
+
+// 评论页
+$(".cyr-comment span").tap(function() {
+    if ($("#cyr-comment-say").val()) {
+        $(".cyr-comment-succeed").show();
+        var cyrCon = "<dl><dt><a href=''><img src='../images/demo/food.jpg' /></a></dt><dd><a href=''>涛</a><span>回复</span><em>刚刚</em><p>" + $("#cyr-comment-say").val() + "</p></dd></dl>";
+        $(".cyr-comment-content dl").eq(0).before(cyrCon);
+        var timer = setTimeout(function() {
+            $(".cyr-comment-succeed").hide();
+        }, 1000);
+    };
 })
