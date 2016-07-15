@@ -50,7 +50,7 @@
 				<input type="text" />
 			</div>
 			<em>人</em>
-			<strong>确定</strong>
+			<a href="" title="">确定</a>
 		</div>
 		<?php 
             include 'common_footer.html';

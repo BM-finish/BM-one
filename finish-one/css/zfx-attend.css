@@ -167,7 +167,7 @@ html, body {
     font-size: 0.92rem;
     color: #fff;
 }
-.zfx-people strong {
+.zfx-people a {
     display: block;
     clear: both;
     width: 30%;
