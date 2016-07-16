@@ -362,7 +362,7 @@ textarea, select, input{
     text-align: center; 
 }
 .htl-regis-pjudge {
-    top: 9.6rem;
+    top: 12.3rem;
     letter-spacing: -0.1rem;
 }
 .htl-enter .foot a:nth-child(5) {
@@ -429,22 +429,13 @@ textarea, select, input{
     background-size: 0.92rem 1.08rem;
 }
 /*轮播图*/
-.htl-index-play, .swiper-container {
-    position: relative;
+.htl-index-play {
     height: 9.79rem;
 }
 .htl-index-play img {
     display: block;
     width: 100%;
     height: 100%;
-}
-.htl-fyq {
-    position: absolute;
-    right: 8.13%;
-    bottom: 0.54rem;
-}
-.htl-fyq span {
-    margin-left: 0.58rem; 
 }
 /*消息通知*/
 .htl-index-notice {
@@ -647,4 +638,33 @@ textarea, select, input{
     line-height: 2.17rem;
     text-align: center;
     border-radius: 0.4rem;
+}
+
+/*登陆注册成功提示*/
+.cyr-register-succeed, .cyr-enter-succeed {
+    display: none;
+    position: fixed;
+    top: 10.33rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 61%;
+    height: 5.92rem;
+    line-height: 4rem;
+    font-size: 0.92rem;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.3;
+}
+.cyr-register-succeed span, .cyr-enter-succeed span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.5rem;
+    width: 30%;
+    height: 2rem;
+    margin: 0 auto;
+    box-shadow: 0 0 0 1px #fff;
+    line-height: 2rem;
 }
