@@ -15,7 +15,7 @@
 <body>
     <div class="zfx-headline">
         <header>
-            <a href="index.php" title=""></a>
+            <a href="../index.php" title=""></a>
             <h1>社区</h1>
         </header>
         <div class="zfx-topline">

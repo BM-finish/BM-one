@@ -1,4 +1,4 @@
-.foot {
+.foot, .index-foot {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -8,7 +8,7 @@
 	text-align: center;
 	background: #f8f6f7;
 }
-.foot a {
+.foot a, .index-foot a {
 	float: left;
 	width: 20%;
 	padding-top: 2.71rem;
@@ -24,7 +24,7 @@
 	background: url('../images/conveninence_g.png') center 0.75rem no-repeat;
 	background-size: 33.7% 1.75rem; 
 }
-.foot .call {
+.foot .call,  .index-foot .call {
 	position: relative;
 	height: 2rem;
 	background-size: 77.59% 4.13rem; 

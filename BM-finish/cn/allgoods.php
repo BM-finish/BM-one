@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../css/common_footer.css" />
     <link rel="stylesheet" type="text/css" href="../css/cyr-one.css" />
     <script type="text/javascript" src="../js/zepto.min.js"></script>
+    <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
     <script type="text/javascript" src="../js/htl_back.js"></script>
 </head>
@@ -216,7 +218,6 @@
             ?>
         </div>
     </div>
-    <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/js-one.js"></script>
 </body>
 </html>

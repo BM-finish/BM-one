@@ -15,8 +15,19 @@ $(function(){
 
 	// 底部导航条
 	$('.foot a').tap(function() {
-		console.log($(this));
 		$(this).addClass('show').css('color', '#0079ff').siblings()
 		.css('color', '#666');
 	})
+	// $('.foot a').eq(1).tap(function() {
+	// 	location.href = 'center.php';
+	// })
+	// $('.foot a').eq(2).tap(function() {
+	// 	location.href = 'allgoods.php';
+	// })
+	// $('.foot a').eq(3).tap(function() {
+	// 	location.href = 'zfx-community1.php';
+	// })
+	// $('.foot a').eq(4).tap(function() {
+	// 	location.href = 'enter.php';
+	// })
 });
