@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-07-12 15:39:08
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-07-16 11:00:37
+* @Last Modified time: 2016-07-16 16:47:46
 */
 
 // 选择小区切换
@@ -61,7 +61,8 @@ $(".cyr-spxx-sort-tit div").tap(function() {
     $(this).children("span").css({
         background: "url()"
     }).parent().siblings().children("span").css({
-        background: "url('../images/goods_tri.png') 100% 1rem no-repeat;"
+        background: "url('../images/goods_tri.png') 100% 1rem no-repeat",
+        backgroundSize: "100%"
     })
     $(".cyr-spxx-sort strong").css({
         left: ($(this).index() * 33.1 + 14) + "%"
@@ -76,7 +77,8 @@ $(".cyr-spxx-sort-content-tit span").tap(function() {
 $(".cyr-spxx-sort-content ul li").tap(function() {
     $(this).addClass("cyr-spxx-li-sel").siblings().removeClass("cyr-spxx-li-sel").parent().parent().parent().hide();
     $(".cyr-spxx-sort-tit span").css({
-        background: "url('../images/goods_tri.png') 100% 1rem no-repeat;"
+        background: "url('../images/goods_tri.png') 100% 1rem no-repeat",
+        backgroundSize: "100%"
     }).eq($(this).parents().parents().parent("div").index()).html($(this).html());
 })
 
