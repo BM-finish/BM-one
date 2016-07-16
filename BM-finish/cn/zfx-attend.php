@@ -11,7 +11,6 @@
     <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
-    <script type="text/javascript" src="../js/htl_back.js"></script>
 </head>
 <body>
 	<div class="zfx-attend">
@@ -39,7 +38,7 @@
 				<em>报名截止日期2014年3月29日。</em>
 			</div>
 			<div class="zfx-icon">
-				<span>1989</span>
+				<a href="comment.php">1989</a>
 				<em>|</em>
 				<strong>989</strong>
 			</div>
@@ -57,19 +56,6 @@
             include 'common_footer.html';
          ?>
 	</div>
-	<script type="text/javascript" src="../js/event.js"></script>
-	<script type="text/javascript" src="../js/touch.js"></script>
-	<script type="text/javascript">
-		$(".zfx-participate").tap(function() {
-			$(this).siblings('.zfx-people').css({
-				"display" : "block"
-			})
-		})
-		$(".zfx-people strong").tap(function() {
-			$(this).parent().css({
-				"display" : "none"
-			})
-		})
-	</script>
+	<script type="text/javascript" src="../js/htl_back.js"></script>
 </body>
 </html>
