@@ -11,11 +11,12 @@
     <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/htl_back.js"></script>
 </head>
 <body>
 	<div class="zfx-attend">
 		<header>
-			<a href="zfx-community.php" title=""></a>
+			<a class="htl-attend-a" title=""></a>
 			<h1>社区活动</h1>
 		</header>
 		<div class="zfx-apply">

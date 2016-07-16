@@ -15,7 +15,7 @@
 <body>
     <div class="zfx-centre htl-perset">
         <header>
-            <a href=""></a>
+            <a href="zfx-centre.php"></a>
             <em>邀请加入</em>
         </header>
         <div class="htl-perset-bigpic">

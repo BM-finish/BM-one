@@ -10,11 +10,12 @@
     <script type="text/javascript" src="../js/zepto.min.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/htl_back.js"></script>
 </head>
 <body>
     <div class="cyr-wrap">
         <header class="cyr-top">
-            <a class="cyr-top-return" href="index1.php"></a>
+            <a class="cyr-top-return"></a>
             <h2>意见投诉</h2>
         </header>
         <form class="cyr-yjts-form" action="">

@@ -15,8 +15,8 @@
 <body>
     <div class="zfx-centre htl-perset">
         <header>
-            <a href=""></a>
-            <em>邀请加入</em>
+            <a href="enter.php"></a>
+            <em>个人中心</em>
         </header>
         <div class="htl-perset-bigpic">
             <img src="../images/round.png" alt="" />
@@ -34,31 +34,31 @@
             </dl>
         </div>
         <div class="zfx-option">
-            <a href="" title="">
+            <a href="zfx-tenement.php" title="">
                 <div class="zfx-advices">
                     <span>我的消息</span>
                     <em>1</em>
                 </div>
             </a>
-             <a href="" title="">
+             <a href="zfx-attend.php" title="">
                 <div class="zfx-mine-activity">
                     <span>我的活动</span>
                 </div>
             </a> 
-            <a href="" title="">
+            <a href="zfx-collect.php" title="">
                 <div class="zfx-enshrine">
-                    <span>我的消息</span>
+                    <span>我的收藏</span>
                 </div>
             </a> 
         </div>
         <div class="zfx-classify">
-            <a href="" title="">
+            <a href="zfx-invite.php" title="">
                 <div class="zfx-join">
                     <span>邀请加入</span>
                     <em></em>
                 </div>
             </a>
-            <a href="" title="">
+            <a href="complaint.php" title="">
                 <div class="zfx-opinion">
                     <span>意见投诉</span>
                     <em></em>

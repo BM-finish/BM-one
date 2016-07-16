@@ -15,7 +15,7 @@
 <body>
     <div class="zfx-collect">
         <header>
-            <a href="" title=""></a>
+            <a href="zfx-centre.php" title=""></a>
             <h1>我的收藏</h1>
         </header>
         <div class="zfx-level">

@@ -3,10 +3,16 @@ $(function() {
     $('.htl-fav-a').tap(function() {
         history.go(-1);
     })
-     $('.cyr-top-return').tap(function() {
+    $('.cyr-top-return').tap(function() {
         history.go(-1);
     })
-      $('.htl-assistant-a').tap(function() {
+    $('.htl-assistant-a').tap(function() {
+        history.go(-1);
+    })
+    $('.htl-attend-a').tap(function() {
+        history.go(-1);
+    })
+     $('cyr-top-return').tap(function() {
         history.go(-1);
     })
 })
