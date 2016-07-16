@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-07-12 15:39:08
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-07-15 21:14:51
+* @Last Modified time: 2016-07-16 10:54:06
 */
 
 // 选择小区切换
@@ -45,12 +45,10 @@ $(".cyr-add-address-list li").tap(function(event) {
 
 // 意见投诉类别列表
 $(".cyr-yjts-show").tap(function() {
-    $(this).children("ul").show();
+    $(this).siblings("ul").show();
 })
-$(".cyr-yjts-show ul li").tap(function() {
-    $(".cyr-yjts-show p").html($(this).html());
-    $(this).parent().hide();
-    // $(this).parent().hide();
+$(".cyr-yjts-detail ul li").tap(function() {
+    $(this).parent().hide().siblings("p").html($(this).html());
 })
 
 // 我的物业点击勾选
@@ -62,6 +60,11 @@ $(".cyr-wdwy-content ul li span").tap(function() {
 $(".cyr-spxx-sort-tit div").tap(function() {
     $(this).children("span").css({
         background: "url()"
+    }).parent().siblings().children("span").css({
+        background: "url('../images/goods_tri.png') 100% 1rem no-repeat;"
+    })
+    $(".cyr-spxx-sort strong").css({
+        left: ($(this).index() * 33.1 + 14) + "%"
     })
     $(".cyr-spxx-sort-content div").eq($(this).index()*3).show().siblings().hide();
 })

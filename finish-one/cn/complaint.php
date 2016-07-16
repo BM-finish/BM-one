@@ -23,15 +23,13 @@
             </p>
             <div class="cyr-yjts-detail clearfix">
                 <h2>类别</h2>
-                <div class="cyr-yjts-show">
-                    <p>请选择投诉类别</p>
-                    <ul>
-                        <li>卫生</li>
-                        <li>邻里</li>
-                        <li>态度</li>
-                        <li>其他</li>
-                    </ul>
-                </div>
+                <p class="cyr-yjts-show">请选择投诉类别</p>
+                <ul>
+                    <li>卫生</li>
+                    <li>邻里</li>
+                    <li>态度</li>
+                    <li>其他</li>
+                </ul>
                 <textarea name="" id="cyr-yjts-content" placeholder="我的意见投诉建议"></textarea>
                 <div class="cyr-yjts-submit-outer">
                     <input class="cyr-yjts-submit" type="submit" />

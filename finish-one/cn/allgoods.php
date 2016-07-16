@@ -18,6 +18,7 @@
             <a class="cyr-top-search" href=""></a>
         </header>
         <div class="cyr-spxx-sort">
+            <strong></strong>
             <div class="cyr-spxx-sort-tit">
                 <div>
                     <span>1000m</span>
@@ -104,7 +105,7 @@
                             <li class="cyr-spxx-li-sel">默认排序</li>
                             <li>距离最近</li>
                             <li>按人气排序</li>
-                            <li>按总体评价排序</li>
+                            <li>按评价排序</li>
                         </ul>
                     </div>     
                 </div>
