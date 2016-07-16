@@ -1,0 +1,155 @@
+.foot {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	height: 4.04rem; 
+	text-align: center;
+	background: #f8f6f7;
+}
+.foot a {
+	float: left;
+	width: 20%;
+	padding-top: 2.71rem;
+	line-height: 1.38rem;
+	font-size: 0.83rem;
+	color: #666666;
+}
+.index {
+	background: url('../images/home_g.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.bm {
+	background: url('../images/conveninence_g.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.foot .call {
+	position: relative;
+	height: 2rem;
+	background-size: 77.59% 4.13rem; 
+}
+.sq {
+	background: url('../images/community_g.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.my {
+	background: url('../images/person_g.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.call:after {
+	position: absolute;
+	content: '';
+	display: block;
+	top: -1.42rem;
+	left: 14.78%;
+	width: 77.59%;
+	height: 4.13rem;
+	background: url('../images/tel_g.png') center 0 no-repeat;
+	background-size: 100% 100%;	
+}
+/*点击下去的样式*/
+.index:active {
+	background: url('../images/home_b.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.bm:active{
+	background: url('../images/convenience.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.call:active {
+	position: relative;
+	background-size: 77.59% 4.13rem; 
+}
+.sq:active {
+	background: url('../images/community_b.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.my:active {
+	background: url('../images/person_b.png') center 0.75rem no-repeat;
+	background-size: 33.7% 1.75rem; 
+}
+.call span:active {
+	position: absolute;
+	top: -1.42rem;
+	left: 14.78%;
+	width: 77.59%;
+	height: 4.13rem;
+	background: url('../images/tel_b.png') center 0 no-repeat;
+	background-size: 100% 100%;	
+}
+
+/*个人设置头部公共样式*/
+.htl-perset header {
+    height: 3.25rem;
+    width: 100%;
+    background: #f9f9f9;
+    line-height: 3.25rem;
+    font-size: 1.33rem;   
+    text-align: center;
+}
+.htl-perset header a {
+    position: fixed;
+    left: 6.09%;
+    top: 1rem;
+    width: 3.13%;
+    height: 1.33rem;
+    z-index: 5;
+    background: url('../images/TOP.png');
+    background-size: 100% 100%;
+}
+
+.htl-perset-bigpic {
+    position: relative;
+    height: 14.42rem;
+}
+.htl-perset-bigpic img, .htl-perset-bigpic dt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.htl-perset-bigpic dl {
+    position: absolute;
+    top: 2.88rem;
+    width: 100%;
+}
+.htl-perset-bigpic dt {
+    overflow: hidden;
+    width: 18.85%;
+    height: 5rem;
+    margin: 0 auto;
+    border-radius: 100%;
+    background: #f0f0f0 url('../images/person_write.png') 1rem 1rem no-repeat;
+    background-size: 3.08rem 4.29rem;
+}
+.htl-perset-bigpic dt:after {
+    position: absolute;
+    top: -0.1rem;
+    content: '';
+    width: 19.73%;
+    height: 5.97rem;
+    background: url('../images/person_circle.png') 0 0 no-repeat;
+    background-size: 98% 100%;
+}
+.htl-perset-bigpic dd {
+    margin-top: 2.71rem;
+    line-height: 1.54rem;
+    font-size: 1.33rem;
+    text-align: center;
+}
+.htl-perset-bigpic dd span, .htl-perset-bigpic dd a {
+    position: relative; 
+    color: #fff;
+}
+.htl-perset-bigpic dd span:after,
+.htl-perset-bigpic dd a:after {
+    position: absolute;
+    right: -1.46rem;
+    top: 0.34rem;
+    display: block;
+    content: '';
+    width: 0.96rem;
+    height: 0.96rem;
+    background: url('../images/pen.png');
+    background-size: 100% 100%;
+}
