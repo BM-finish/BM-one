@@ -271,9 +271,10 @@
     padding: 0 1%;
     background-color: #d6d6d6;
 }
-.cyr-wdwy-content p span {
+.cyr-wdwy-content p a {
     right: 3%;
     font-size: 2.33rem;
+    color: #414141;
 }
 .cyr-wdwy-content ul {
     width: 98%;
@@ -285,7 +286,7 @@
     padding: 0 1%;
     border-top: 1px solid #d6d6d6;
 }
-.cyr-wdwy-content p span, .cyr-wdwy-content ul li em, .cyr-wdwy-content ul li span {
+.cyr-wdwy-content p a, .cyr-wdwy-content ul li em, .cyr-wdwy-content ul li span {
     position: absolute;
     top: 0;
     bottom: 0;

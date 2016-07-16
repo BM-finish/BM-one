@@ -3,6 +3,7 @@
     height: 100%;
     padding-bottom: 5.54rem;
     background-color: #f0eff4;
+    box-sizing: border-box;
 }
 /*头部公共样式*/
 .cyr-top {

@@ -37,7 +37,7 @@
         <div class="cyr-wdwy-content">
             <h2>我的物业</h2>
             <p>绑定物业
-                <span>+</span>
+                <a href="add.php">+</a>
             </p>
             <ul>
                 <li>通惠家园

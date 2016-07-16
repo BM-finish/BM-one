@@ -18,7 +18,7 @@
             <h2>选择小区</h2>
         </header>
         <h3 class="cyr-xzxq-tit">新增小区
-            <a href="">+</a>
+            <a href="binding_use.php">+</a>
         </h3>
         <ul class="cyr-add-address-list">
             <li>
