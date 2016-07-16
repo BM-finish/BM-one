@@ -5,28 +5,46 @@ $(function() {
 		location.href = "register.php"
 	})
 	// 注册
-	$(".cyr-register-succeed span").tap(function() {
-		var registerOk = setTimeout(function() {
-			$(".cyr-register-succeed").hide();
-		}, 1000);
-		// window.location.href = "enter.php";
+	$(".htl-regis-btn").tap(function() {
+		window.location.href = "enter.php"
 	})
-	// 登录
+	//登录
 	$(".htl-enter-btn").tap(function() {
-		$.post("../php/login.php", $("form").serializeArray(), function(response) {
-			if (!response.state) {
-				$(".cyr-enter-tip").show();
-			} else {
-				$(".cyr-enter-succeed").show();
-			}
-		})
+		window.location.href = "zfx-centre.php"
 	})
-	$(".cyr-enter-succeed span").tap(function() {
-		var enterOk = setTimeout(function() {
-			$(".cyr-enter-succeed").hide();
-		}, 1000);
-		// window.location.href = "centre.php";
-	})
+	// $(".htl-regis-btn").tap(function() {
+	// 	$.post("../php/register.php", $(".htl-regisF").serializeArray(), function(response) {
+	// 		if (!response.state) {
+	// 			console.log(response.state)
+	// 			$('.htl-regis-njudge').html('用户名已存在');
+	// 		} else {
+	// 			$(".cyr-register-succeed").show();
+	// 		}
+	// 	})
+	// })
+	// $(".cyr-register-succeed span").tap(function() {
+	// 	var registerOk = setTimeout(function() {
+	// 		$(".cyr-register-succeed").hide();
+	// 	}, 1000);
+	// 	// window.location.href = "enter.php";
+	// })
+	// 登录
+	// $(".htl-enter-btn").tap(function() {
+	// 	$.post("../php/login.php", $("form").serializeArray(), function(response) {
+	// 		if (!response.state) {
+	// 			$(".cyr-enter-tip").show();
+	// 		} else {
+	// 			$(".cyr-enter-succeed").show();
+	// 		}
+	// 	})
+	// })
+	// $(".cyr-enter-succeed span").tap(function() {
+	// 	var enterOk = setTimeout(function() {
+	// 		$(".cyr-enter-succeed").hide();
+	// 	}, 1000);
+	// 	// window.location.href = "centre.php";
+	// })
+	
 	// 记住密码
 	$('.htl-enter-remb em, .htl-enter-remb span').tap(function() {
 		if($('.htl-enter-remb span').hasClass('htl-enter-select')) {
@@ -89,13 +107,6 @@ $(function() {
 			$('.htl-regis-njudge').html('用户名格式错误');
 		}else {
 			$('.htl-regis-njudge').html('');
-			$.post("../php/register.php", $(".htl-regisF").serializeArray(), function(response) {
-			if (!response.state) {
-				$('.htl-regis-njudge').html('用户名已存在');
-			} else {
-				$(".cyr-register-succeed").show();
-			}
-		})
 		}
 	})
 	// 密码的判断

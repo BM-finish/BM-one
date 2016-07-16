@@ -18,6 +18,21 @@
             <a class="cyr-top-return" href="index1.php"></a>
             <h2>意见投诉</h2>
         </header>
+        <div class="htl-perset-bigpic">
+            <img src="../images/demo/round.png" alt="" />
+            <dl>
+                <a href="">
+                    <dt>
+                        <img src="" alt="" />
+                    </dt>
+                </a>
+                <dd>
+                    <a href="">adadad</a>
+                    <br />
+                    <span>北京市朝阳区京通快速公路</span>        
+                </dd>
+            </dl>
+        </div>
         <div class="cyr-wdwy-content">
             <h2>我的物业</h2>
             <p>绑定物业
