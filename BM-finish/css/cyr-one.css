@@ -98,16 +98,20 @@
 .cyr-yjts-detail ul {
     display: none;
     position: absolute;
-    top: 4rem;
-    left: 19%;
+    top: 4.2rem;
+    left: 20%;
     z-index: 99;
-    width: 100%;
+    width: 67%;
+    background-color: #f0eff4;
 }
 .cyr-yjts-detail ul li {
-    width: 95%;
-    padding-left: 5%;
+    width: 93%;
+    padding-left: 7%;
     line-height: 2rem;
     font-size: 0.92rem;
+}
+.cyr-yjts-detail ul li:active {
+    background-color: #999;
 }
 #cyr-yjts-content {
     float: left;
