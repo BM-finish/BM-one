@@ -201,7 +201,7 @@
     height: 100%;
     padding-right: 7.51%;
     background: url("../images/goods_tri.png") 100% 1rem no-repeat;
-    background-size: 0.33rem 0.33rem;
+    /*background-size: 0.33rem 0.33rem;*/
 }
 .cyr-spxx-sort-tit div:nth-child(3) {
     border: none;
