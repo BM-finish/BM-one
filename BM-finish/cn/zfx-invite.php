@@ -34,18 +34,18 @@
             </dl>
         </div>
         <div class="zfx-option">
-            <a href="" title="">
+            <a href="zfx-tenement.php" title="">
                 <div class="zfx-advices">
                     <span>我的消息</span>
                     <em>1</em>
                 </div>
             </a>
-             <a href="" title="">
+             <a href="zfx-attend" title="">
                 <div class="zfx-mine-activity">
                     <span>我的活动</span>
                 </div>
             </a> 
-            <a href="" title="">
+            <a href="zfx-collect.php" title="">
                 <div class="zfx-enshrine">
                     <span>我的收藏</span>
                 </div>
@@ -58,7 +58,7 @@
                     <em></em>
                 </div>
             </a>
-            <a href="" title="">
+            <a href="complaint.php" title="">
                 <div class="zfx-opinion">
                     <span>意见投诉</span>
                     <em></em>

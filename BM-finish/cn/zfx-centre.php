@@ -21,13 +21,13 @@
         <div class="htl-perset-bigpic">
             <img src="../images/round.png" alt="" />
             <dl>
-                <a href="">
+                <a href="personnal_set.php">
                     <dt>
                         <img src="" alt="" />
                     </dt>
                 </a>
                 <dd>
-                    <a href="">adadad</a>
+                    <a href="personnal_set.php">adadad</a>
                     <br />
                     <span>北京市朝阳区京通快速公路</span>
                 </dd>
@@ -65,13 +65,13 @@
                 </div>
             </a>       
         </div>
-        <a href="">
+        <a href="myproperty.php">
             <div class="zfx-mine-tenement">
                 <span>我的物业</span>
                 <em></em>
             </div>
         </a>
-        <a class="zfx-exit" href="" title="">
+        <a class="zfx-exit" href="enter.php" title="">
             退出登录
         </a>      
     </div>

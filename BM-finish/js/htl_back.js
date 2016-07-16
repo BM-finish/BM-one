@@ -1,19 +1,25 @@
 // 《今日优惠》《评论》页面
 $(function() {
     $('.htl-fav-a').tap(function() {
-        history.go(-1);
+        history.back();
     })
     $('.cyr-top-return').tap(function() {
-        history.go(-1);
+        history.back();
     })
     $('.htl-assistant-a').tap(function() {
-        history.go(-1);
+        history.back();
     })
     $('.htl-attend-a').tap(function() {
-        history.go(-1);
+        history.back();
     })
-     $('cyr-top-return').tap(function() {
-        history.go(-1);
+    $('cyr-top-return').tap(function() {
+        history.back();
+    })
+    $('cyr-top-return').tap(function() {
+        history.back();
+    })
+    $('.htl-changew-bc').tap(function() {
+        location.href = 'zfx-centre.php';
     })
 })
 

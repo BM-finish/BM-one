@@ -14,7 +14,7 @@
 <body>
     <div class="htl-enter">
         <header>
-            <a href="index1.php"></a>
+            <a href="index.php"></a>
             <em>登入</em>
             <span class="htl-create">注册</span>
         </header>

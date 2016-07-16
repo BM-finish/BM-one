@@ -15,9 +15,25 @@
 </head>
 <body>
     <div class="htl-perset">
-        <?php 
-            include 'person_head.html';
-         ?>
+        <header>
+            <a href="zfx-centre.php"></a>
+            <em>个人中心</em>
+        </header>
+        <div class="htl-perset-bigpic">
+            <img src="../images/demo/round.png" alt="" />
+            <dl>
+                <a href="">
+                    <dt>
+                        <img src="" alt="" />
+                    </dt>
+                </a>
+                <dd>
+                    <a href="">adadad</a>
+                    <br />
+                    <span>北京市朝阳区京通快速公路</span>        
+                </dd>
+            </dl>
+        </div>
         <!-- 个人信息设置 -->
         <ul class="htl-perset-mass">
             <li>个人信息</li>
@@ -37,7 +53,7 @@
                 <span>地址</span>
                 <em>四惠大厦6001</em>
             </li>
-            <a href="">             
+            <a href="chage_password.php">             
                 <li class="htl-perset-change">修改</li>
             </a>
         </ul>

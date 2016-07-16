@@ -11,11 +11,12 @@
     <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/htl_back.js"></script>
 </head>
 <body>
     <div class="zfx-tenement htl-perset">
         <header>
-            <a href="index1.php"></a>
+            <a class="htl-fav-a"></a>
             <em>我的消息</em>
         </header>
         <div class="htl-perset-bigpic">

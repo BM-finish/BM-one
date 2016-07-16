@@ -10,11 +10,12 @@
     <script src="../js/zepto.min.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/htl_first.js"></script>
+    <script src="../js/htl_back.js"></script>
 </head>
 <body>
     <div class="htl-changew">
         <header>
-            <a href=""></a>
+            <a class="htl-fav-a"></a>
             <em>修改密码</em>
             <span class="htl-changew-bc">保存</span>
         </header>
