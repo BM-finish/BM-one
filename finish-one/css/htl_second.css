@@ -98,3 +98,41 @@ li.htl-perset-change {
     box-shadow: 0 0 0 1px #fff;
     line-height: 2rem;
 }
+ /*《报修》页面补充*/
+ .htl-rep-date-hour {
+    overflow: visible;
+    position: relative;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+ }
+.htl-rep-hour-son {
+    display: none;
+    position: absolute;
+    top: 2.7rem;
+    left: 0;
+    height: 0;
+    width: 72%; 
+    line-height: 2rem;
+    font-size: 0.92rem;
+    box-shadow: 0 0 0 1px #999;
+ }
+ .htl-rep-date-hour .htl-rep-hour-sonShow {
+    display: block;
+ }
+.htl-rep-hour-son li {
+    padding-left: 0.5rem; 
+    background: #dedede;
+ }
+.htl-rep-hour-son li:active {
+    background: #999;
+ }
+ .htl-rep-date-hour div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0.5rem; 
+    height: 2.75em;
+ }
+
+

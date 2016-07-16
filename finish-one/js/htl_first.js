@@ -141,5 +141,12 @@ $(function() {
 	$('.htl-rep-sub').tap(function() {
 		location.href = "repair_message.php"
 	})
+	$('.htl-rep-date-hour div').tap(function() {
+		$('.htl-rep-hour-son').show();
+	})
+	$('.htl-rep-hour-son li').tap(function() {
+		$('.htl-rep-date-hour div').html('<div>' + $(this).text() + '</div>');
+		$('.htl-rep-hour-son').hide();
+	})
 	
 })

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/repair.css">
+    <link rel="stylesheet" href="../css/htl_second.css">
     <link rel="stylesheet" href="../css/common_footer.css">
+    <link rel="stylesheet" href="../css/calendar.css">
     <script src="../js/zepto.min.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/htl_first.js"></script>
@@ -40,9 +42,21 @@
                         <b>要求服务日期</b>
                         <i>*</i>
                     </span>
-                    <div class="htl-rep-date"></div>
+                    <div class="htl-rep-date">
+                        <?php 
+                            include 'date.html';
+                         ?>
+                    </div>
                 </div>
-                <div class="htl-rep-date-hour"></div>
+                <div class="htl-rep-date-hour">
+                    <div class="htl-rep-orig">10:00-12:00</div>
+                    <ul class="htl-rep-hour-son">
+                        <li>8:00-10:00</li>
+                        <li>10:00-12:00</li>
+                        <li>2:00-4:00</li>
+                        <li>4:00-6:00</li>
+                    </ul>
+                </div>
                 <div class="htl-rep-serve">要求服务描述</div>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
                 <div class="htl-rep-fBtn clearfix">
@@ -57,5 +71,12 @@
     </div>
     <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/fx.js"></script>
+    <script type="text/javascript" src="../js/fx_methods.js"></script>
+    <script src="../js/calendar.js"></script>
+    <script src="../js/sea.js"></script>
+     <script>
+        seajs.use('../js/calendar');
+    </script>
 </body>
 </html>

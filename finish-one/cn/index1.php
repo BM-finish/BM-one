@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/common_footer.css">
     <link rel="stylesheet" href="../css/repair.css">
+    <link rel="stylesheet" href="../css/swiper.3.1.7.min.css">
     <script src="../js/zepto.min.js"></script>
     <script src="../js/common.js"></script>
 </head>
@@ -18,7 +19,42 @@
         </header>
         <!-- 轮播图 -->
         <div class="htl-index-play">
-            <img src="../images/demo/play1.jpg" alt="" />
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="../images/demo/read.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="../images/demo/call.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="../images/demo/invite.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="../images/demo/food.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="../images/demo/round.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="../images/demo/us_bigpic.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination htl-fyq"></div>
         </div>
         <!-- 消息通知 -->
         <div class="htl-index-notice clearfix">
@@ -84,5 +120,7 @@
     </div>
     <script type="text/javascript" src="../js/event.js"></script>
     <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/swiper.3.1.7.jquery.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>
