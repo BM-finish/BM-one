@@ -35,7 +35,7 @@
                         <div>
                             <a href="comment.php" class="htl-aa">1989</a>
                             <em>|</em>
-                            <strong>989</strong>
+                            <strong class="cyr-love">989</strong>
                         </div>  
                     </dl>
                 </div>
@@ -56,7 +56,28 @@
                         <div>
                             <a href="comment.php" class="htl-aa">1989</a>
                             <em>|</em>
-                            <strong>989</strong>
+                            <strong class="cyr-love">989</strong>
+                        </div>  
+                    </dl>
+                </div>
+            </a>
+             <a href="zfx-news.php" title="">
+                <div class="zfx-passport">
+                    <dl>
+                        <dt>
+                            <em>头条</em>
+                            <img src="../images/book.png" alt="" />
+                        </dt>
+                        <dd>
+                            <p>
+                               英媒：两名持假护照冒名者是想移民的伊朗人 
+                            </p>
+                            <em>2014-03-28</em>
+                        </dd>
+                        <div>
+                            <a href="comment.php" class="htl-aa">1989</a>
+                            <em>|</em>
+                            <strong class="cyr-love">989</strong>
                         </div>  
                     </dl>
                 </div>
@@ -77,7 +98,7 @@
                         <div>
                             <a href="comment.php" class="htl-aa">1989</a>
                             <em>|</em>
-                            <strong>989</strong>
+                            <strong class="cyr-love">989</strong>
                         </div>  
                     </dl>
                 </div>
@@ -98,7 +119,7 @@
                         <div>
                             <a href="comment.php" class="htl-aa">1989</a>
                             <em>|</em>
-                            <strong>989</strong>
+                            <strong class="cyr-love">989</strong>
                         </div>  
                     </dl>
                 </div>
@@ -119,28 +140,7 @@
                         <div>
                             <a href="comment.php" class="htl-aa">1989</a>
                             <em>|</em>
-                            <strong>989</strong>
-                        </div>  
-                    </dl>
-                </div>
-            </a>
-             <a href="zfx-news.php" title="">
-                <div class="zfx-passport">
-                    <dl>
-                        <dt>
-                            <em>头条</em>
-                            <img src="../images/book.png" alt="" />
-                        </dt>
-                       <dd>
-                            <p>
-                               英媒：两名持假护照冒名者是想移民的伊朗人 
-                            </p>
-                            <em>2014-03-28</em>
-                        </dd>
-                        <div>
-                            <a href="comment.php" class="htl-aa">1989</a>
-                            <em>|</em>
-                            <strong>989</strong>
+                            <strong class="cyr-love">989</strong>
                         </div>  
                     </dl>
                 </div>

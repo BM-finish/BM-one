@@ -36,11 +36,11 @@
 					活动内容：<br>为了引导学生从事有益身心健康的体育活动，达到全民健身的目的，我社区自发组织一场以激情和友谊为主题的足球赛，希望大家踊跃参加！
 				</p>
 				<em>报名截止日期2014年3月29日。</em>
-			</div>
+			</div>		
 			<div class="zfx-icon">
 				<a href="comment.php">1989</a>
 				<em>|</em>
-				<strong>989</strong>
+				<strong class="cyr-love">989</strong>
 			</div>
 		</div>
 		<em class="zfx-participate" href="">我要参加</em>

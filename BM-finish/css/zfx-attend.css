@@ -106,9 +106,9 @@ html, body {
 	float: left;
 	margin-right: 12%;
 }
-.zfx-icon strong {
+.cyr-love{
 	float: left;
-	padding-left: 14%;
+	padding-left: 1.3rem;
 	font-size: 0.92rem;
 	background: url("../images/love.png") 0 50% no-repeat;
 	background-size: 0.88rem 0.75rem;

@@ -34,19 +34,21 @@ $(".zfx-people strong").tap(function() {
         "display" : "none"
     })
 })
-var zfxIcon = true;
-$(".zfx-icon strong").tap(function() {
-    if (zfxIcon) {
-        $(this).css({
-            background: "url('../images/loves.png') 0 50% no-repeat",
-            backgroundSize: "0.88rem 0.75rem"
-        }).html(990);
-        zfxIcon = false;
-    } else {
-        $(this).css({
-            background: "url('../images/love.png') 0 50% no-repeat",
-            backgroundSize: "0.88rem 0.75rem"
-        }).html(989);
-        zfxIcon = true;
-    };
+$(function() {
+    var zfxIcon = true;
+    $(".cyr-love").tap(function() {
+        if (zfxIcon) {
+            $(this).css({
+                background: "url('../images/loves.png') 0 50% no-repeat",
+                backgroundSize: "0.88rem 0.75rem"
+            }).html(990);
+            zfxIcon = false;
+        } else {
+            $(this).css({
+                background: "url('../images/love.png') 0 50% no-repeat",
+                backgroundSize: "0.88rem 0.75rem"
+            }).html(989);
+            zfxIcon = true;
+        };
+    })
 })

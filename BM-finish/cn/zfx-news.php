@@ -33,12 +33,13 @@
 				</p>
 				<a href="comment.php">1989</a>
 				<em>|</em>
-				<strong>989</strong>
+				<strong class="cyr-love">989</strong>
 			</div>
 		</div>
 		<?php 
             include 'common_footer.html';
          ?>
 	</div>
+    <script type="text/javascript" src="../js/htl_back.js"></script>
 </body>
 </html>
